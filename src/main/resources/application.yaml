@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: 'off'
+
+management:
+  server:
+    port: 8081
+  metrics:
+    enable:
+      jvm: false
+      tomcat: false
+      system: false
+      process: false
